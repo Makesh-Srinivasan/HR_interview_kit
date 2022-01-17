@@ -1,7 +1,8 @@
 import java.io.*;
 import java.util.*;
 
-public class Solution {
+// change class name to "Solution" while running on Hackerrank
+public class Camel_case_4 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         try{
@@ -48,5 +49,6 @@ public class Solution {
                 }
             }
         } catch(IllegalStateException | NoSuchElementException e){}
+        input.close();
     }
 }
